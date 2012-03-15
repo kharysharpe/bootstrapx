@@ -15,8 +15,7 @@
 	
 	<link rel="stylesheet" href="jqmcss/structure/index.php" />
 	
-	
-	<!-- <link rel="stylesheet" href="css/jquerymobile-essentials.css"> -->
+	<link rel="stylesheet" href="css/jquerymobile/structure/index.php">
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
@@ -74,9 +73,9 @@
 
 	<div data-role="content" >	
 		
-		<h1>Bootstrap++</h1>
+		<h1>BootstrapX</h1>
 		
-		<p>HTML5 Boilerplate + Twitter Bootstrap + JQuery Mobile(lite)</p>
+		<p>HTML5 Boilerplate + Twitter Bootstrap + JQuery Mobile(essentials) + Emberjs</p>
 	
 		
 	</div><!-- /content -->
@@ -361,7 +360,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
-<script src="jqmjs/index.php"></script>
+<!-- load JQuery Mobile -->
+<script src="js/libs/jquerymobile/index.php"></script>
+
+<!-- Load ember.js -->
+<script src="js/libs/emberjs/ember-0.9.5.min.js"></script>
+
 
 <!-- scripts concatenated and minified via ant build script-->
 <script src="js/libs/bootstrap/transition.js"></script>
@@ -381,6 +385,10 @@
 	s.parentNode.insertBefore(g,s)}(document,'script'));
 */
 </script>
+
+
+<!-- Load App -->
+<script src="app/app.js"></script>
 
 </body>
 </html>
